@@ -1,0 +1,35 @@
+
+package javabasic.clase2.Aritmeitca;
+
+public class OperacionesAritmeticas {
+   
+    public OperacionesAritmeticas() {
+}
+public double sumar(double a, double b){
+double resultado = a + b;
+return resultado;
+}
+    public int getmax(int a, int b) {
+int mayor = a;
+if (a > b) {
+mayor = a;
+} else if (a == b) {
+mayor = 0; //por ser iguales
+} else {
+mayor = b;
+}
+return mayor;
+}
+public float getmax(float a, float b) {
+float mayor = a;
+if (a > b) {
+mayor = a;
+} else if (a == b) {
+mayor = 0; //por ser iguales
+} else {
+mayor = b;
+}
+return mayor;
+}
+}
+
